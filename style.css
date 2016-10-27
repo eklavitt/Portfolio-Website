@@ -1,4 +1,4 @@
- main.css */
+/* main.css */
 
 html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	padding: 0;
@@ -69,7 +69,7 @@ nav li a {
 
 .nav_logo a {
 	opacity: 100;
-	Color: #000000;
+	color: #000000;
 	font-family: Abel, Lato, "helvetica-neue";
 	height: 100%;
 	font-size: 48px;
@@ -83,10 +83,14 @@ nav li a {
 	padding-right: 40px;
 }
 
+.mobile_drop_menu {
+	display: none;
+}
+
 .nav_contact {
 	float: right;
 	width: 24.9%;
-	margin-top: -35px;
+	margin-top: -20px;
 
 	
 }
@@ -107,21 +111,31 @@ nav li a {
 	}
 	.nav_list {
 		float: right;
-		max-width: 80px;
-		background-image: url("src/img/navMobileDrop.png");
-		background-size: cover;
+		max-width: 60px;
+		height: 100%;
+		margin-top: 0;
 
 	}
 	.nav_list ul {
 		display: none;
 	}
+	.mobile_drop_menu {
+		display: initial;
+	}
+	.mobile_drop_menu img {
+		max-height: 140px;
+		position: relative;
+		top: -15px;
+		right: 50px;	}
 }
+
+
 
 
 /* main */
  
 .title {
-	font-size: 40px;
+	font-size: 80px;
 	margin: 90px auto 0;
 	text-align: center;
 	height: 400px;
@@ -131,9 +145,6 @@ nav li a {
 .title h1 {
 	margin-bottom: 0;
 }
-
-
-/* Skills Section*/
 
 .skills {
 	background-color: #262626;
@@ -156,10 +167,39 @@ nav li a {
 .about h3 {
 	font-size: 140px;
 	text-align: center;
-	color: #000000;
+	color: #304155;;
 	padding-top: 200px;
 	margin-top: 0;
+}
+
+.contact {
+	font-size: 140px;
+	text-align: center;
+	background-color: #F5FE00;
+
+}
+
+.contact h3 {
+	padding-top: 200px;
+	margin-top: 0;
+	
+}
 
 
+/* footer */
 
-/* footer 
+footer {
+	height: 80px;
+	text-align: center;
+	font-family: Lato, "helvetica-neue", helvitica, sans-serif;
+	font-size: 18px;
+	background-color: #304155;
+	color: #ffffff;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+footer p {
+	padding-top: 30px;
+	margin-top: 0;
+}
