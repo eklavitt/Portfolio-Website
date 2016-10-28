@@ -13,7 +13,7 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	height: 600px;
 }
 
-.jump_spacer {
+.jump-spacer {
 	height: 100px;
 	margin-top: -120px;
 }
@@ -90,10 +90,7 @@ nav li a {
 	width: 50%;
 	margin: 40px auto 0;
 	padding-right: 40px;
-}
-
-.mobile_drop_menu {
-	display: none;
+	text-align: right;
 }
 
 .nav_contact {
@@ -114,28 +111,11 @@ nav li a {
 
 }
 
-@media screen and (max-width: 980px) {
-	.nav_contact {
-		display: none;
-	}
-	.nav_list {
-		float: right;
-		max-width: 60px;
-		height: 100%;
-		margin-top: 0;
 
-	}
-	.nav_list ul {
+@media screen and (max-width: 680px){
+	.nav_list ul{
 		display: none;
 	}
-	.mobile_drop_menu {
-		display: initial;
-	}
-	.mobile_drop_menu img {
-		max-height: 140px;
-		position: relative;
-		top: -15px;
-		right: 50px;	}
 }
 
 
@@ -201,7 +181,7 @@ nav li a {
 /* footer */
 
 footer {
-	height: 80px;
+	height: 100px;
 	text-align: center;
 	font-family: Lato, "helvetica-neue", helvitica, sans-serif;
 	font-size: 18px;
@@ -209,9 +189,10 @@ footer {
 	color: #ffffff;
 	letter-spacing: 3px;
 	font-weight: 300;
+	margin-top: -20px;
 }
 
 footer p {
-	padding-top: 30px;
+	padding-top: 40px;
 	margin-top: 0;
 }
