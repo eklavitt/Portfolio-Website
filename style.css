@@ -13,6 +13,12 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	height: 600px;
 }
 
+.jump_spacer {
+	height: 100px;
+	margin-top: -120px;
+}
+
+
 /* header/main navigation*/
 header {
 	background-color: transparent;
@@ -63,17 +69,20 @@ nav li a {
 	height: 100%;
 	position: relative;
 	left: 80px;
-	padding-top: 15px;
-	min-width: 280px;
+	padding-top: 20px;
+	min-width: 344px;
 }
 
 .nav_logo a {
 	opacity: 100;
-	color: #000000;
-	font-family: Abel, Lato, "helvetica-neue";
+	color: #304155;
+	font-family: Lato, "helvetica-neue";
+	font-weight: 200;
 	height: 100%;
-	font-size: 48px;
+	font-size: 40px;
 	text-decoration: none;
+	letter-spacing: 5px;
+
 
 }
 
@@ -161,13 +170,16 @@ nav li a {
 
 .projects {
 	background-color: #4CD6D6;
-	margin-top: -20px;
+	margin: 0;
 }
-
+.about {
+	background-color: #ffffff;
+	margin: 0;
+}
 .about h3 {
 	font-size: 140px;
 	text-align: center;
-	color: #304155;;
+	color: #000000;
 	padding-top: 200px;
 	margin-top: 0;
 }
